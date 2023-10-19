@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <form id="converter">
+        <input
+          type="number"
+          name="amount"
+          placeholder="Ilość"
+          class="amount"
+          required
+          min="0.01"
+          step="0.01"
+        />
+        <select class="select" name="currency">
+          <option value="EUR">Euro</option>
+          <option value="USD">Dolar Amerykański</option>
+          <option value="CHF">Frank Szwajcarski</option>
+        </select>
+        <button type="submit" class="submit">Przelicz</button>
+      </form>
+      <h1 id="output"></h1>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

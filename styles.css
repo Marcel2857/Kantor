@@ -1,0 +1,39 @@
+html {
+  background-color: rgb(104, 255, 205);
+  height: 100%;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.main {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.amount {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  border-radius: 7px;
+  border-color: rgb(0, 0, 0);
+}
+
+.amount::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.select {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  height: 45px;
+  border-radius: 7px;
+  border-color: rgb(0, 0, 0);
+}
+
+.submit {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  height: 45px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 7px;
+}
