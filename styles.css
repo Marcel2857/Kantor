@@ -23,27 +23,18 @@ html {
   color: rgb(0, 0, 0);
 }
 
-.select {
-  font-size: 30px;
-  background-color: transparent;
-  color: rgb(0, 0, 0);
-  height: 55px;
-  border-radius: 7px;
-  border-color: rgb(0, 0, 0);
-}
-
-.submit {
-  font-size: 30px;
-  background-color: transparent;
-  color: rgb(0, 0, 0);
-  height: 55px;
-  border-color: rgb(0, 0, 0);
-  border-radius: 7px;
-}
-
 .output {
   margin-left: 10px;
   font-size: 50px;
   display: flex;
   justify-content: center;
+}
+
+.formItem {
+  font-size: 30px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  height: 55px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 7px;
 }
